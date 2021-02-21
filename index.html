@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Title -->
+        <h1>TODO List</h1>
+        
+        <!-- ADD TODO list elements -->
+        <form >
+            <input type="text"  name="input" id="input" autocomplete="off"> 
+            <button class="btn" type="button" onclick="add()">Add</button>
+        </form>
+        
+        <!-- enter list using javascript(dynamically) -->
+        <ul id="list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
